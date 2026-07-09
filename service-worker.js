@@ -1,4 +1,4 @@
-const CACHE_NAME = "rtw-checkliste-v1";
+const CACHE_NAME = "rtw-checkliste-v12";
 const ASSETS = [
   "./",
   "./index.html",

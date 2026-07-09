@@ -18,6 +18,23 @@ const allItems = () => sections.flatMap(section => section.items);
 const isDone = item => checked.has(item.id);
 const save = () => localStorage.setItem(storageKey, JSON.stringify([...checked]));
 function normalize(value) { return value.toLocaleLowerCase("de-DE"); }
+
+function sectionLabel(section) {
+  if (section.group === "Rucksacksystem") {
+    const parts = section.title.split(" - ").map(part => part.trim()).filter(Boolean);
+    return {
+      context: "",
+      title: parts[parts.length - 1] || section.title
+    };
+  }
+
+  const title = section.title === "Fach 13 Fach 13" ? "Fach 13" : section.title;
+  if (/^Sch.tte\s+\d+/.test(title)) return { context: "", title };
+  if (/^(Ebene\s+\d+|BTM Fach)/.test(title)) return { context: "", title };
+  if (title === "Modultasche Spritzenpumpe") return { context: "", title };
+  return { context: "", title };
+}
+
 function matches(item, section) {
   const haystack = normalize(`${section.group} ${section.title} ${item.name} ${item.amount} ${item.note || ""}`);
   if (groupFilter !== "all" && section.group !== groupFilter) return false;
@@ -45,8 +62,11 @@ function render() {
     visibleSections += 1;
     const node = sectionTemplate.content.cloneNode(true);
     const article = node.querySelector(".check-section");
-    const head = node.querySelector(".section-head");
+    const head = node.querySelector(".section-toggle");
+    const bulk = node.querySelector(".section-bulk");
+    const sectionCheck = node.querySelector(".section-check");
     const pill = node.querySelector(".group-pill");
+    const context = node.querySelector(".section-context");
     const title = node.querySelector(".section-title");
     const meta = node.querySelector(".section-meta");
     const percentNode = node.querySelector(".section-percent");
@@ -54,11 +74,18 @@ function render() {
     const items = node.querySelector(".items");
     const sectionDone = section.items.filter(isDone).length;
     const sectionPercent = section.items.length ? Math.round((sectionDone / section.items.length) * 100) : 0;
+    const sectionComplete = sectionDone === section.items.length;
+    const label = sectionLabel(section);
     pill.textContent = section.group === "RTW" ? "RTW" : "Rucksack";
-    title.textContent = section.title;
+    context.textContent = label.context;
+    context.hidden = !label.context;
+    title.textContent = label.title;
     meta.textContent = `${sectionDone}/${section.items.length} erledigt`;
     percentNode.textContent = `${sectionPercent}%`;
     miniBar.style.width = `${sectionPercent}%`;
+    sectionCheck.checked = sectionComplete;
+    sectionCheck.indeterminate = sectionDone > 0 && !sectionComplete;
+    bulk.classList.toggle("complete", sectionComplete);
     visibleItems.forEach(item => {
       const itemNode = itemTemplate.content.cloneNode(true);
       const label = itemNode.querySelector(".item");
@@ -80,6 +107,12 @@ function render() {
       items.append(itemNode);
     });
     head.addEventListener("click", () => article.classList.toggle("collapsed"));
+    sectionCheck.addEventListener("change", () => {
+      if (sectionCheck.checked) section.items.forEach(item => checked.add(item.id));
+      else section.items.forEach(item => checked.delete(item.id));
+      save();
+      render();
+    });
     sectionList.append(node);
   });
   if (!visibleSections) {

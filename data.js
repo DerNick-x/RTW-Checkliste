@@ -130,18 +130,18 @@ window.CHECKLIST_DATA = [
         "amount": "1"
       },
       {
-        "id": "rtw-sch-tte-1-spo-einwegsensor-3-20-kg-2-2-40ae8aa",
-        "name": "SpO Einwegsensor (3-20 kg) 2",
+        "id": "rtw-sch-tte-1-spo2-einwegsensor-3-20-kg-2-2-6328455",
+        "name": "SpO2 Einwegsensor (3-20 kg) 2",
         "amount": "2"
       },
       {
-        "id": "rtw-sch-tte-1-co-einwegadapter-hauptstrom-2-2-287b99f",
-        "name": "CO -Einwegadapter (Hauptstrom) 2",
+        "id": "rtw-sch-tte-1-co2-einwegadapter-hauptstrom-2-2-3237dac",
+        "name": "CO2-Einwegadapter (Hauptstrom) 2",
         "amount": "2"
       },
       {
-        "id": "rtw-sch-tte-1-co-nasal-oral-einwegadapter-2-2-72b51ee",
-        "name": "CO -Nasal/Oral-Einwegadapter 2",
+        "id": "rtw-sch-tte-1-co2-nasal-oral-einwegadapter-2-2736176",
+        "name": "CO2-Nasal/Oral-Einwegadapter",
         "amount": "2"
       },
       {
@@ -1326,8 +1326,23 @@ window.CHECKLIST_DATA = [
     "title": "Fach 10",
     "items": [
       {
-        "id": "rtw-fach-10-vakuumschiene-bein-erwachsene-vakuumschien-9f93bd0",
-        "name": "Vakuumschiene \"Bein\" Erwachsene Vakuumschiene \"Arm\" Erwachsene Vakuumschiene \"Bein\" Kind Vakuumschiene \"Arm\" Kind",
+        "id": "rtw-fach-10-vakuumschiene-bein-erwachsene-1-abd1a6a",
+        "name": "Vakuumschiene \"Bein\" Erwachsene",
+        "amount": "1"
+      },
+      {
+        "id": "rtw-fach-10-vakuumschiene-arm-erwachsene-1-caaadd3",
+        "name": "Vakuumschiene \"Arm\" Erwachsene",
+        "amount": "1"
+      },
+      {
+        "id": "rtw-fach-10-vakuumschiene-bein-kind-1-762d76b",
+        "name": "Vakuumschiene \"Bein\" Kind",
+        "amount": "1"
+      },
+      {
+        "id": "rtw-fach-10-vakuumschiene-arm-kind-1-9d889ca",
+        "name": "Vakuumschiene \"Arm\" Kind",
         "amount": "1"
       }
     ]
@@ -1392,22 +1407,22 @@ window.CHECKLIST_DATA = [
     ]
   },
   {
-    "id": "rtw-fach-13-fach-13-45cf2ce",
+    "id": "rtw-fach-13-b6435af",
     "group": "RTW",
-    "title": "Fach 13 Fach 13",
+    "title": "Fach 13",
     "items": [
       {
-        "id": "rtw-fach-13-fach-13-kindernotfalltasche-s-separate-che-a49e1e8",
+        "id": "rtw-fach-13-kindernotfalltasche-s-separate-checkliste--aadd477",
         "name": "Kindernotfalltasche (s. separate Checkliste)",
         "amount": "1"
       },
       {
-        "id": "rtw-fach-13-fach-13-stifneck-erwachsene-2-883ab5e",
+        "id": "rtw-fach-13-stifneck-erwachsene-2-f811417",
         "name": "Stifneck Erwachsene",
         "amount": "2"
       },
       {
-        "id": "rtw-fach-13-fach-13-stifneck-kind-2-6c2acd3",
+        "id": "rtw-fach-13-stifneck-kind-2-916b98f",
         "name": "Stifneck Kind",
         "amount": "2"
       }
@@ -1527,14 +1542,15 @@ window.CHECKLIST_DATA = [
         "amount": "1"
       },
       {
-        "id": "rtw-schiebet-r-beifahrerseite-o-tasche-siehe-separate--3855757",
-        "name": "O -Tasche (siehe separate Checkliste) 2",
+        "id": "rtw-schiebet-r-beifahrerseite-o2-tasche-siehe-separate-8fb2555",
+        "name": "O2-Tasche (siehe separate Checkliste) 2",
         "amount": "1"
       },
       {
-        "id": "rtw-schiebet-r-beifahrerseite-kindernotfalltasche-sieh-de0c7d9",
-        "name": "Kindernotfalltasche (siehe separate Checkliste) Zugang über Innenfach 13 möglich",
-        "amount": "1"
+        "id": "rtw-schiebet-r-beifahrerseite-kindernotfalltasche-sieh-3ee66de",
+        "name": "Kindernotfalltasche (siehe separate Checkliste)",
+        "amount": "1",
+        "note": "Zugang über Innenfach 13 möglich"
       },
       {
         "id": "rtw-schiebet-r-beifahrerseite-stifneck-erwachsene-hint-96c0a0c",
@@ -1586,1093 +1602,1125 @@ window.CHECKLIST_DATA = [
     ]
   },
   {
-    "id": "rucksacksystem-rucksacksystem-e75b5ba",
-    "group": "Rucksacksystem",
-    "title": "Rucksacksystem",
+    "id": "rtw-innenraum-kofferaufbau-bd9ebb4",
+    "group": "RTW",
+    "title": "Innenraum Kofferaufbau",
     "items": [
       {
-        "id": "rucksacksystem-rucksacksystem-stifneck-erwachsene-1-ef57f7b",
+        "id": "rtw-innenraum-kofferaufbau-beatmungsger-t-oxylog-siehe-1c1dc08",
+        "name": "Beatmungsgerät Oxylog (siehe separate Checkliste)",
+        "amount": ""
+      },
+      {
+        "id": "rtw-innenraum-kofferaufbau-defibrillator-patientenmoni-1c44d2a",
+        "name": "Defibrillator/Patientenmonitor Corpuls ³ (siehe separate Checkliste)",
+        "amount": ""
+      },
+      {
+        "id": "rtw-innenraum-kofferaufbau-absaugger-t-elektrisch-sieh-ef35357",
+        "name": "Absauggerät, elektrisch (siehe separate Checkliste)",
+        "amount": ""
+      },
+      {
+        "id": "rtw-innenraum-kofferaufbau-rettungsschere-b0077e6",
+        "name": "Rettungsschere",
+        "amount": ""
+      },
+      {
+        "id": "rtw-innenraum-kofferaufbau-handschuhhalter-best-ckt-mi-a5249ff",
+        "name": "Handschuhhalter, bestückt mit S, M, L, XL",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "rucksacksystem-notfallrucksack-rot-au-enwand-8202861",
+    "group": "Rucksacksystem",
+    "title": "Außenwand",
+    "items": [
+      {
+        "id": "rucksacksystem-notfallrucksack-rot-au-enwand-stifneck--0725330",
         "name": "Stifneck Erwachsene",
         "amount": "1"
       }
     ]
   },
   {
-    "id": "rucksacksystem-trennwand-kreislauf-723e071",
-    "group": "Rucksacksystem",
-    "title": "Trennwand Kreislauf",
-    "items": [
-      {
-        "id": "rucksacksystem-trennwand-kreislauf-jonosteril-1-1b43d90",
-        "name": "Jonosteril",
-        "amount": "1"
-      }
-    ]
-  },
-  {
-    "id": "rucksacksystem-obere-tasche-38d07be",
+    "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-f22168a",
     "group": "Rucksacksystem",
     "title": "Obere Tasche",
     "items": [
       {
-        "id": "rucksacksystem-obere-tasche-infusionsbesteck-1-00c2313",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-041168c",
+        "name": "Jonosteril",
+        "amount": "1"
+      },
+      {
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-4050c6e",
         "name": "Infusionsbesteck",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-obere-tasche-mad-set-1-ml-spritze-und-a-27f75ca",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-a6b0b8f",
         "name": "MAD Set (1 ml Spritze und Aufsatz)",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-obere-tasche-midazolam-15mg-3ml-1-e1b46cf",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-d116769",
         "name": "Midazolam 15mg/3ml",
         "amount": "1"
-      },
-      {
-        "id": "rucksacksystem-obere-tasche-thoraxpunktionsnadeln-2-2364044",
-        "name": "Thoraxpunktionsnadeln",
-        "amount": "2"
       }
     ]
   },
   {
-    "id": "rucksacksystem-schlaufen-1-reihe-85a5cc9",
+    "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-7429617",
     "group": "Rucksacksystem",
     "title": "Schlaufen, 1. Reihe",
     "items": [
       {
-        "id": "rucksacksystem-schlaufen-1-reihe-kleiderschere-gro-1-36536ba",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-fec7603",
+        "name": "Thoraxpunktionsnadeln",
+        "amount": "2"
+      },
+      {
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-4596fc6",
         "name": "Kleiderschere Groß",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-schlaufen-1-reihe-stethoskop-1-2c24384",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-19bac65",
         "name": "Stethoskop",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-schlaufen-1-reihe-pupillenleuchte-1-fd8654c",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-dac5c73",
         "name": "Pupillenleuchte",
         "amount": "1"
-      },
-      {
-        "id": "rucksacksystem-schlaufen-1-reihe-mini-spike-entnahmeka-b3cf35d",
-        "name": "Mini Spike Entnahmekanüle",
-        "amount": "2"
       }
     ]
   },
   {
-    "id": "rucksacksystem-schlaufen-2-reihe-01abfac",
+    "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-d746f84",
     "group": "Rucksacksystem",
     "title": "Schlaufen, 2. Reihe",
     "items": [
       {
-        "id": "rucksacksystem-schlaufen-2-reihe-glucose-20-100ml-1-acb5310",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-b1bc23d",
+        "name": "Mini Spike Entnahmekanüle",
+        "amount": "2"
+      },
+      {
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-26d262d",
         "name": "Glucose 20% 100ml",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-schlaufen-2-reihe-jubin-40g-2-138aa6a",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-9eddcb9",
         "name": "Jubin 40g",
         "amount": "2"
-      },
-      {
-        "id": "rucksacksystem-schlaufen-2-reihe-nacl-0-9-100ml-1-83ff1f3",
-        "name": "NaCl 0,9% 100ml",
-        "amount": "1"
       }
     ]
   },
   {
-    "id": "rucksacksystem-schlaufen-3-reihe-a4bd2cc",
+    "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-ac799f2",
     "group": "Rucksacksystem",
     "title": "Schlaufen, 3.Reihe",
     "items": [
       {
-        "id": "rucksacksystem-schlaufen-3-reihe-thiopental-500mg-aqua-3421a66",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-7a53418",
+        "name": "NaCl 0,9% 100ml",
+        "amount": "1"
+      },
+      {
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-80e9df7",
         "name": "Thiopental 500mg + Aqua 20ml",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-schlaufen-3-reihe-epinephrin-25mg-25ml--11a6011",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-395d832",
         "name": "Epinephrin 25mg/25ml Hinweis auf Kühlung – 6 Monate außerhalb haltbar",
         "amount": "1",
         "note": "Suprarenin"
       },
       {
-        "id": "rucksacksystem-schlaufen-3-reihe-nitroglycerin-spray-1-ad20202",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-8eac7db",
         "name": "Nitroglycerin Spray",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-schlaufen-3-reihe-paracetamol-1000-mg-1-e2a3379",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-eeefe85",
         "name": "Paracetamol 1000 mg/100ml",
         "amount": "1"
-      },
-      {
-        "id": "rucksacksystem-schlaufen-3-reihe-saugkompressen-10x10c-0b4473d",
-        "name": "Saugkompressen 10x10cm",
-        "amount": "2"
       }
     ]
   },
   {
-    "id": "rucksacksystem-blutstillung-d3a9e59",
+    "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-96847b6",
     "group": "Rucksacksystem",
-    "title": "& Blutstillung",
+    "title": "Modultasche Verband & Blutstillung",
     "items": [
       {
-        "id": "rucksacksystem-blutstillung-saugkompressen-10x20cm-2-59e7858",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-0c88e71",
+        "name": "Saugkompressen 10x10cm",
+        "amount": "2"
+      },
+      {
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-660ff43",
         "name": "Saugkompressen 10x20cm",
         "amount": "2"
       },
       {
-        "id": "rucksacksystem-blutstillung-mullkompresse-10x10cm-2-b7485fa",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-3a8591e",
         "name": "Mullkompresse 10x10cm",
         "amount": "2"
       },
       {
-        "id": "rucksacksystem-blutstillung-verbandtuch-verbrennung-60-8b11a7a",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-7fc943c",
         "name": "Verbandtuch Verbrennung 60x80cm",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-blutstillung-mullbinde-gro-2-c0f29e7",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-8600448",
         "name": "Mullbinde (groß)",
         "amount": "2"
       },
       {
-        "id": "rucksacksystem-blutstillung-kopfwundverband-sn-gg-1-4860033",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-abd57e6",
         "name": "Kopfwundverband Snögg",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-blutstillung-druckverband-1-6aa5f49",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-4b20645",
         "name": "Druckverband",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-blutstillung-verbandp-ckchen-gro-2-c354ec5",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-7fa5d8e",
         "name": "Verbandpäckchen groß",
         "amount": "2"
       },
       {
-        "id": "rucksacksystem-blutstillung-tourniquet-1-75b03f4",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-3b51bab",
         "name": "Tourniquet",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-blutstillung-chitogauze-xr-pro-1-df38a16",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-0fb04d7",
         "name": "ChitoGauze XR Pro",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-blutstillung-rettungsdecke-1-41b5b1a",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-598fcd4",
         "name": "Rettungsdecke",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-blutstillung-leukosilk-1-f85f2c0",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-fdc0f60",
         "name": "Leukosilk",
-        "amount": "1"
-      },
-      {
-        "id": "rucksacksystem-blutstillung-universalschiene-xl-1-c0a7253",
-        "name": "Universalschiene XL",
         "amount": "1"
       }
     ]
   },
   {
-    "id": "rucksacksystem-immobilisation-13c667f",
+    "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-27bdd61",
     "group": "Rucksacksystem",
-    "title": "Immobilisation",
+    "title": "Modultasche Immobilisation",
     "items": [
       {
-        "id": "rucksacksystem-immobilisation-k-ltekompresse-1-c7ef672",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-eff2367",
+        "name": "Universalschiene XL",
+        "amount": "1"
+      },
+      {
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-a8c04c0",
         "name": "Kältekompresse",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-immobilisation-dreiecktuch-1-7461e48",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-eb30675",
         "name": "Dreiecktuch",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-immobilisation-selbsthaftende-fixierbin-1a84b1e",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-6f5c467",
         "name": "Selbsthaftende Fixierbinde",
         "amount": "1"
-      },
-      {
-        "id": "rucksacksystem-immobilisation-venenverweilkan-le-22g-2-99e9bd5",
-        "name": "Venenverweilkanüle 22G",
-        "amount": "2"
       }
     ]
   },
   {
-    "id": "rucksacksystem-modultasche-infusion-a9d2a52",
+    "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-c0b43e7",
     "group": "Rucksacksystem",
     "title": "Modultasche Infusion",
     "items": [
       {
-        "id": "rucksacksystem-modultasche-infusion-venenverweilkan-le-644bb0a",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-5eafceb",
+        "name": "Venenverweilkanüle 22G",
+        "amount": "2"
+      },
+      {
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-dd144ae",
         "name": "Venenverweilkanüle 20G",
         "amount": "3"
       },
       {
-        "id": "rucksacksystem-modultasche-infusion-venenverweilkan-le-92fa3ed",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-fe12278",
         "name": "Venenverweilkanüle 18G",
         "amount": "3"
       },
       {
-        "id": "rucksacksystem-modultasche-infusion-venenverweilkan-le-912386a",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-69bd4ec",
         "name": "Venenverweilkanüle 16G",
         "amount": "2"
       },
       {
-        "id": "rucksacksystem-modultasche-infusion-venenverweilkan-le-04c998e",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-05c8854",
         "name": "Venenverweilkanüle 14G",
         "amount": "2"
       },
       {
-        "id": "rucksacksystem-modultasche-infusion-stauschlauch-1-13ab45c",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-c73b287",
         "name": "Stauschlauch",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-modultasche-infusion-blutentnahme-set-1-1998d5a",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-99aab2a",
         "name": "Blutentnahme Set",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-modultasche-infusion-kan-lenfixierpflas-adf6c59",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-bcb0ff9",
         "name": "Kanülenfixierpflaster",
         "amount": "5"
       },
       {
-        "id": "rucksacksystem-modultasche-infusion-leukosilk-1-b2fae19",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-d0a3269",
         "name": "Leukosilk",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-modultasche-infusion-cutasept-50-ml-1-57020fb",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-5a76124",
         "name": "Cutasept 50 ml",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-modultasche-infusion-jonosteril-1-d818f6f",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-0432471",
         "name": "Jonosteril",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-modultasche-infusion-infusionsbesteck-1-69fb52e",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-f814d4c",
         "name": "Infusionsbesteck",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-modultasche-infusion-tupfer-kompressen--d5c7191",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-f84a050",
         "name": "Tupfer (Kompressen 5x5cm)",
         "amount": "10"
-      },
+      }
+    ]
+  },
+  {
+    "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-13fdbc8",
+    "group": "Rucksacksystem",
+    "title": "Wanne/Seitentasche",
+    "items": [
       {
-        "id": "rucksacksystem-modultasche-infusion-abwurfbeh-lter-1-b47d58b",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-952bc73",
         "name": "Abwurfbehälter",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-modultasche-infusion-bz-messger-t-in-ta-879c058",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-92788bf",
         "name": "Bz Messgerät in Tasche (siehe separate Checkliste)",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-modultasche-infusion-3-wegehahn-2-5bdaee2",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-326f57f",
         "name": "3 Wegehahn",
         "amount": "2"
       },
       {
-        "id": "rucksacksystem-modultasche-infusion-reservehandschuhe--a3cddc1",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-4ddc934",
         "name": "Reservehandschuhe",
         "amount": "5 Paar"
       },
       {
-        "id": "rucksacksystem-modultasche-infusion-m-llbeutel-1-f938269",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-c321217",
         "name": "Müllbeutel",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-modultasche-infusion-magnet-1-454b232",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-16fc362",
         "name": "Magnet",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-modultasche-infusion-blutdruckmessger-t-180b198",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-ff96032",
         "name": "Blutdruckmessgerät",
-        "amount": "1"
-      },
-      {
-        "id": "rucksacksystem-modultasche-infusion-xylocain-gel-gelic-75372f5",
-        "name": "Xylocain Gel / Gelicain",
         "amount": "1"
       }
     ]
   },
   {
-    "id": "rucksacksystem-trennwand-beatmung-0250dd3",
+    "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-096b0b5",
     "group": "Rucksacksystem",
     "title": "Trennwand Beatmung",
     "items": [
       {
-        "id": "rucksacksystem-trennwand-beatmung-magillzange-25cm-1-d631dd2",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-571bc3f",
+        "name": "Xylocain Gel / Gelicain",
+        "amount": "1"
+      },
+      {
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-b14c288",
         "name": "Magillzange, 25cm",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-trennwand-beatmung-laryngoskopgriff-mit-ec5d2de",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-b47dc4b",
         "name": "Laryngoskopgriff mit Akku (wiederaufladbar)",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-trennwand-beatmung-spatel-mac-4-1-5862ed1",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-9e59ac2",
         "name": "Spatel MAC 4",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-trennwand-beatmung-spatel-mac-3-1-3b914b8",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-fca7539",
         "name": "Spatel MAC 3",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-trennwand-beatmung-cuffdruckmesser-m-ma-34d868e",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-22d5cc6",
         "name": "Cuffdruckmesser m. Manometer",
-        "amount": "1"
-      },
-      {
-        "id": "rucksacksystem-trennwand-beatmung-endotrachealtubenhal-0389abf",
-        "name": "Endotrachealtubenhalterung",
         "amount": "1"
       }
     ]
   },
   {
-    "id": "rucksacksystem-klarsichttasche-bda46c6",
+    "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-160c689",
     "group": "Rucksacksystem",
     "title": "Klarsichttasche",
     "items": [
       {
-        "id": "rucksacksystem-klarsichttasche-lma-supreme-gr-3-1-437aa41",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-52f1bd1",
+        "name": "Endotrachealtubenhalterung",
+        "amount": "1"
+      },
+      {
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-10caf81",
         "name": "LMA Supreme Gr. 3",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-klarsichttasche-lma-supreme-gr-4-1-efd00a1",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-1ab67ea",
         "name": "LMA Supreme Gr. 4",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-klarsichttasche-lma-supreme-gr-5-1-514771e",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-5129208",
         "name": "LMA Supreme Gr. 5",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-klarsichttasche-endotrachealtubus-gr-8--4e1b1aa",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-a57a41f",
         "name": "Endotrachealtubus Gr. 8,5",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-klarsichttasche-endotrachealtubus-gr-7--23a097e",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-afb7282",
         "name": "Endotrachealtubus Gr. 7,5",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-klarsichttasche-endotrachealtubus-gr-6--98287ce",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-d59fc13",
         "name": "Endotrachealtubus Gr. 6,5",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-klarsichttasche-endotrachealtubus-gr-6--ddf6b12",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-b5fd286",
         "name": "Endotrachealtubus Gr. 6",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-klarsichttasche-endotrachealtubus-gr-5--5831da6",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-2210e25",
         "name": "Endotrachealtubus Gr. 5,5",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-klarsichttasche-endotrachealtubus-gr-5--08fb379",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-22db292",
         "name": "Endotrachealtubus Gr. 5",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-klarsichttasche-magensonde-ch14-1-06573eb",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-4130b2c",
         "name": "Magensonde CH14",
         "amount": "1",
         "note": "ab LMA Supreme Gr. 3 anwendbar"
       },
       {
-        "id": "rucksacksystem-klarsichttasche-sekretbeutel-1ltr-1-040d3a8",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-43fb413",
         "name": "Sekretbeutel 1ltr.",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-klarsichttasche-wendeltubus-ch28-1-3238ce3",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-d933dd3",
         "name": "Wendeltubus CH28",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-klarsichttasche-wendeltubus-ch24-1-a752901",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-69a0057",
         "name": "Wendeltubus CH24",
-        "amount": "1"
-      },
-      {
-        "id": "rucksacksystem-klarsichttasche-mappe-medikamenten-aufk-a1326e1",
-        "name": "Mappe Medikamenten Aufkleber",
         "amount": "1"
       }
     ]
   },
   {
-    "id": "rucksacksystem-ampullarium-ac5a795",
+    "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-d9a69ea",
     "group": "Rucksacksystem",
-    "title": "Ampullarium",
+    "title": "Ampullarium - Seite 2",
     "items": [
       {
-        "id": "rucksacksystem-ampullarium-cafedrin-theodrenalin-200mg-5a2b1d4",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-de876ec",
+        "name": "Mappe Medikamenten Aufkleber",
+        "amount": "1"
+      },
+      {
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-964aab3",
         "name": "Cafedrin/Theodrenalin 200mg/10mg auf 2ml",
         "amount": "2",
         "note": "Akrinor"
       },
       {
-        "id": "rucksacksystem-ampullarium-biperiden-5mg-1ml-1-bcbec17",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-0916ce8",
         "name": "Biperiden 5mg/1ml",
         "amount": "1",
         "note": "Akineton"
       },
       {
-        "id": "rucksacksystem-ampullarium-flumazenil-0-5mg-5ml-1-8b39ae9",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-3ac91a6",
         "name": "Flumazenil 0,5mg/5ml",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-ampullarium-atropin-0-5mg-1ml-3-b05e56f",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-d791ea1",
         "name": "Atropin 0,5mg/1ml",
         "amount": "3"
       },
       {
-        "id": "rucksacksystem-ampullarium-metoprolol-5mg-5ml-2-7563a81",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-db20b01",
         "name": "Metoprolol 5mg/5ml",
         "amount": "2"
       },
       {
-        "id": "rucksacksystem-ampullarium-butylscopolamin-20mg-1ml-1-87a2376",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-a5c9482",
         "name": "Butylscopolamin 20mg/1ml",
         "amount": "1",
         "note": "Buscopan"
       },
       {
-        "id": "rucksacksystem-ampullarium-reproterol-hcl-0-09mg-1ml-1-14a29a7",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-176e32a",
         "name": "Reproterol HCL 0,09mg/1ml",
         "amount": "1",
         "note": "Bronchospasmin"
       },
       {
-        "id": "rucksacksystem-ampullarium-amiodaron-150mg-3ml-3-719e1d9",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-0183e77",
         "name": "Amiodaron 150mg/3ml",
         "amount": "3"
       },
       {
-        "id": "rucksacksystem-ampullarium-midazolam-5mg-5ml-2-511e14c",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-0a0cc54",
         "name": "Midazolam 5mg/5ml",
         "amount": "2"
       },
       {
-        "id": "rucksacksystem-ampullarium-urapidil-50mg-10ml-1-81b7696",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-3d6ac10",
         "name": "Urapidil 50mg/10ml",
         "amount": "1",
         "note": "Ebrantil"
       },
       {
-        "id": "rucksacksystem-ampullarium-dimetindemaleat-4mg-4ml-2-2d97cb4",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-e7a7d35",
         "name": "Dimetindenmaleat 4mg/4ml",
         "amount": "2",
         "note": "Histakut"
       },
       {
-        "id": "rucksacksystem-ampullarium-haloperidol-5mg-1ml-1-7ba62cd",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-e9db807",
         "name": "Haloperidol 5mg/1ml",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-ampullarium-heparin-5-000-i-e-0-2ml-1-ebf2d64",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-2091bce",
         "name": "Heparin 5.000 i. E./0,2ml",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-ampullarium-esketamin-50mg-2ml-3-e2e233f",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-55fe26c",
         "name": "Esketamin 50mg/2ml",
         "amount": "3",
         "note": "Ketanest S"
       },
       {
-        "id": "rucksacksystem-ampullarium-furosemid-20mg-2ml-2-3d7b973",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-92d7f2d",
         "name": "Furosemid 20mg/2ml",
         "amount": "2"
       },
       {
-        "id": "rucksacksystem-ampullarium-magnesiumsulfat-5g-10ml-1-00a413c",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-01ca533",
         "name": "Magnesiumsulfat 5g/10ml",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-ampullarium-naloxon-0-4mg-1ml-1-c8bacd9",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-82c78bb",
         "name": "Naloxon 0,4mg/1ml",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-ampullarium-rocuronium-100mg-10ml-hinwe-f73581e",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-c2f014b",
         "name": "Rocuronium 100mg/10ml Hinweis auf Kühlung – 6 Monate außerhalb haltbar",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-ampullarium-fenoterol-0-5mg-10ml-1-1286f44",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-a8a969a",
         "name": "Fenoterol 0,5mg/10ml",
         "amount": "1",
         "note": "Partusisten"
       },
       {
-        "id": "rucksacksystem-ampullarium-dimenhydrinat-62mg-10ml-2-5a298cc",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-a529084",
         "name": "Dimenhydrinat 62mg/10ml",
         "amount": "2",
         "note": "Vomex A"
       },
       {
-        "id": "rucksacksystem-ampullarium-lidocain-2-100mg-5ml-1-2a3904c",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-0861949",
         "name": "Lidocain 2% 100mg/5ml",
         "amount": "1",
         "note": "Xylocain"
       },
       {
-        "id": "rucksacksystem-ampullarium-prednisolon-250mg-l-sungsmi-70f62a5",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-6f98eec",
         "name": "Prednisolon 250mg + Lösungsmittel",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-ampullarium-ass-500mg-5ml-l-sungsmittel-6da916a",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-dc34cfa",
         "name": "ASS 500mg/5ml + Lösungsmittel",
         "amount": "1",
         "note": "Aspirin i.v."
       },
       {
-        "id": "rucksacksystem-ampullarium-ondansetron-4mg-2ml-1-50b36b5",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-ad761dd",
         "name": "Ondansetron 4mg/2ml",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-ampullarium-ipratropiumbromid-250-g-1ml-a0afc60",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-885d4cb",
         "name": "Ipratropiumbromid 250µg/1ml",
         "amount": "2",
         "note": "IpraBronch"
       },
       {
-        "id": "rucksacksystem-ampullarium-salbutamol-1-25mg-2-5ml-4-0e37ffe",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-fc835e7",
         "name": "Salbutamol 1,25mg/2,5ml",
         "amount": "4"
       },
       {
-        "id": "rucksacksystem-ampullarium-nacl-0-9-10ml-3-ab70b38",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-7d0bc43",
         "name": "NaCl 0,9% 10ml",
         "amount": "3"
       },
       {
-        "id": "rucksacksystem-ampullarium-adenosin-6mg-1ml-3-e1b0e77",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-18d8104",
         "name": "Adenosin 6mg/1ml",
         "amount": "3"
       },
       {
-        "id": "rucksacksystem-ampullarium-thiamin-100-mg-2ml-1-4bab829",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-3aa1d47",
         "name": "Thiamin 100 mg/2ml",
         "amount": "1",
         "note": "Vitamin B1"
       },
       {
-        "id": "rucksacksystem-ampullarium-ammola-riechst-bchen-riecha-ff2e6a6",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-57d549f",
         "name": "Ammola Riechstäbchen (Riechampullen) 0,4ml",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-ampullarium-ass-tablette-500mg-1-f5803a6",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-da408cd",
         "name": "ASS Tablette 500mg",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-ampullarium-spritze-20ml-2-1ba3267",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-ccb3d2b",
         "name": "Spritze 20ml",
         "amount": "2"
       },
       {
-        "id": "rucksacksystem-ampullarium-spritze-10ml-5-720d547",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-008d4df",
         "name": "Spritze 10ml",
         "amount": "5"
       },
       {
-        "id": "rucksacksystem-ampullarium-spritze-5ml-5-b46a5b3",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-a1b5e29",
         "name": "Spritze 5ml",
         "amount": "5"
       },
       {
-        "id": "rucksacksystem-ampullarium-spritze-2ml-5-8860653",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-7a21dd6",
         "name": "Spritze 2ml",
         "amount": "5"
       },
       {
-        "id": "rucksacksystem-ampullarium-spritze-1ml-3-803ca45",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-35a12b9",
         "name": "Spritze 1ml",
         "amount": "3"
       },
       {
-        "id": "rucksacksystem-ampullarium-entnahmekan-le-10-efad94e",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-cbf1e8a",
         "name": "Entnahmekanüle",
         "amount": "10"
       },
       {
-        "id": "rucksacksystem-ampullarium-kombistopfen-10-f3c03de",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-b3e328f",
         "name": "Kombistopfen",
         "amount": "10"
       },
       {
-        "id": "rucksacksystem-ampullarium-entnahmekan-le-mit-filter-5-174f6b8",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-9bac548",
         "name": "Entnahmekanüle mit Filter",
         "amount": "5"
       },
       {
-        "id": "rucksacksystem-ampullarium-safety-kan-le-21-g-i-m-2-dce437c",
+        "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-2606758",
         "name": "Safety- Kanüle 21 G (i.m.)",
         "amount": "2"
-      },
-      {
-        "id": "rucksacksystem-ampullarium-o-flasche-2-1-1b719e2",
-        "name": "O2-Flasche 2",
-        "amount": "1"
       }
     ]
   },
   {
-    "id": "rucksacksystem-sauerstofftasche-b6f10ea",
+    "id": "rucksacksystem-beatmungstasche-blau-sauerstofftasche-8aa5983",
     "group": "Rucksacksystem",
     "title": "Sauerstofftasche",
     "items": [
       {
-        "id": "rucksacksystem-sauerstofftasche-druckminderer-1-a649328",
+        "id": "rucksacksystem-beatmungstasche-blau-sauerstofftasche-o-cf663b9",
+        "name": "O2-Flasche",
+        "amount": "1"
+      },
+      {
+        "id": "rucksacksystem-beatmungstasche-blau-sauerstofftasche-d-d7c1381",
         "name": "Druckminderer",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-sauerstofftasche-demandventil-1-5m-zga--717772f",
+        "id": "rucksacksystem-beatmungstasche-blau-sauerstofftasche-d-37b6b9b",
         "name": "Demandventil + 1,5m ZGA-Schlauch",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-sauerstofftasche-beatmungsbeutelset-erw-cdc5df9",
+        "id": "rucksacksystem-beatmungstasche-blau-sauerstofftasche-b-96d30d4",
         "name": "Beatmungsbeutelset Erwachsene",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-sauerstofftasche-cpap-einmalbeatmungsma-2eca405",
+        "id": "rucksacksystem-beatmungstasche-blau-sauerstofftasche-c-0338ea1",
         "name": "CPAP Einmalbeatmungsmaske Gr. L",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-sauerstofftasche-cpap-einmalbeatmungsma-7df7818",
+        "id": "rucksacksystem-beatmungstasche-blau-sauerstofftasche-c-1739aae",
         "name": "CPAP Einmalbeatmungsmaske Gr. M",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-sauerstofftasche-cpap-einmalbeatmungsma-11e5694",
+        "id": "rucksacksystem-beatmungstasche-blau-sauerstofftasche-c-354e020",
         "name": "CPAP Einmalbeatmungsmaske Gr. S",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-sauerstofftasche-guedeltubus-gr-5-1-557a0fc",
+        "id": "rucksacksystem-beatmungstasche-blau-sauerstofftasche-g-648530f",
         "name": "Guedeltubus Gr. 5",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-sauerstofftasche-guedeltubus-gr-4-1-3311fdc",
+        "id": "rucksacksystem-beatmungstasche-blau-sauerstofftasche-g-7f6b5e9",
         "name": "Guedeltubus Gr. 4",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-sauerstofftasche-guedeltubus-gr-3-1-446f104",
+        "id": "rucksacksystem-beatmungstasche-blau-sauerstofftasche-g-280dc8a",
         "name": "Guedeltubus Gr. 3",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-sauerstofftasche-guedeltubus-gr-2-1-70703eb",
+        "id": "rucksacksystem-beatmungstasche-blau-sauerstofftasche-g-9e9cc86",
         "name": "Guedeltubus Gr. 2",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-sauerstofftasche-g-nsegurgel-1-2cd37c7",
+        "id": "rucksacksystem-beatmungstasche-blau-sauerstofftasche-g-9057c43",
         "name": "Gänsegurgel",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-sauerstofftasche-beatmungsfilter-1-7b4fb0d",
+        "id": "rucksacksystem-beatmungstasche-blau-sauerstofftasche-b-f71d7ce",
         "name": "Beatmungsfilter",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-sauerstofftasche-peepventil-1-16bc44c",
+        "id": "rucksacksystem-beatmungstasche-blau-sauerstofftasche-p-84dfd03",
         "name": "Peepventil",
-        "amount": "1"
-      },
-      {
-        "id": "rucksacksystem-sauerstofftasche-sauerstoffmaske-erwach-f693970",
-        "name": "Sauerstoffmaske Erwachsene",
         "amount": "1"
       }
     ]
   },
   {
-    "id": "rucksacksystem-fach-insufflation-ec34568",
+    "id": "rucksacksystem-beatmungstasche-blau-fach-insufflation-d1526e1",
     "group": "Rucksacksystem",
     "title": "Fach Insufflation",
     "items": [
       {
-        "id": "rucksacksystem-fach-insufflation-sauerstoffbrille-erwa-c0e760a",
+        "id": "rucksacksystem-beatmungstasche-blau-fach-insufflation--3d84688",
+        "name": "Sauerstoffmaske Erwachsene",
+        "amount": "1"
+      },
+      {
+        "id": "rucksacksystem-beatmungstasche-blau-fach-insufflation--fa3be61",
         "name": "Sauerstoffbrille Erwachsene",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-fach-insufflation-verneblermaske-1-8e0ec77",
+        "id": "rucksacksystem-beatmungstasche-blau-fach-insufflation--4b741a7",
         "name": "Verneblermaske",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-fach-insufflation-hyperventilationsmask-1a737e2",
+        "id": "rucksacksystem-beatmungstasche-blau-fach-insufflation--d23018f",
         "name": "Hyperventilationsmaske",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-fach-insufflation-filtamask-1-350b14a",
+        "id": "rucksacksystem-beatmungstasche-blau-fach-insufflation--a3ccbc4",
         "name": "FiltaMask",
         "amount": "1"
       }
     ]
   },
   {
-    "id": "rucksacksystem-deckelfach-dca7bf1",
+    "id": "rucksacksystem-kindertasche-gelb-deckelfach-0d52c82",
     "group": "Rucksacksystem",
     "title": "Deckelfach",
     "items": [
       {
-        "id": "rucksacksystem-deckelfach-laryngoskopgriff-mit-akku-ki-d3248c1",
+        "id": "rucksacksystem-kindertasche-gelb-deckelfach-laryngosko-369de7f",
         "name": "Laryngoskopgriff mit Akku, Kind",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-deckelfach-spatel-miller-gr-1-1-68cb8fe",
+        "id": "rucksacksystem-kindertasche-gelb-deckelfach-spatel-mil-e9211d5",
         "name": "Spatel Miller Gr. 1",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-deckelfach-spatel-miller-gr-0-1-453e01c",
+        "id": "rucksacksystem-kindertasche-gelb-deckelfach-spatel-mil-c9efb82",
         "name": "Spatel Miller Gr. 0",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-deckelfach-spatel-mac-2-1-01072e8",
+        "id": "rucksacksystem-kindertasche-gelb-deckelfach-spatel-mac-d1fc545",
         "name": "Spatel MAC 2",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-deckelfach-spatel-mac-1-1-318416d",
+        "id": "rucksacksystem-kindertasche-gelb-deckelfach-spatel-mac-070f544",
         "name": "Spatel MAC 1",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-deckelfach-cuffdruckmesser-ag-cuffil-me-c367d71",
+        "id": "rucksacksystem-kindertasche-gelb-deckelfach-cuffdruckm-eb0fb29",
         "name": "Cuffdruckmesser AG Cuffil (Mehrweg)",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-deckelfach-guedeltubus-gr-1-1-5cb4550",
+        "id": "rucksacksystem-kindertasche-gelb-deckelfach-guedeltubu-c1601f0",
         "name": "Guedeltubus Gr. 1",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-deckelfach-guedeltubus-gr-0-1-90e1427",
+        "id": "rucksacksystem-kindertasche-gelb-deckelfach-guedeltubu-7b8083d",
         "name": "Guedeltubus Gr. 0",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-deckelfach-guedeltubus-gr-00-1-e418fe1",
+        "id": "rucksacksystem-kindertasche-gelb-deckelfach-guedeltubu-9192aaf",
         "name": "Guedeltubus Gr. 00",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-deckelfach-guedeltubus-gr-000-1-ee36561",
+        "id": "rucksacksystem-kindertasche-gelb-deckelfach-guedeltubu-2f16f14",
         "name": "Guedeltubus Gr. 000",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-deckelfach-magillzange-klein-15cm-1-d97a885",
+        "id": "rucksacksystem-kindertasche-gelb-deckelfach-magillzang-a2a9a9d",
         "name": "Magillzange, klein 15cm",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-deckelfach-endotracheltubus-gr-4-5-1-2994acc",
+        "id": "rucksacksystem-kindertasche-gelb-deckelfach-endotrache-4980932",
         "name": "Endotrachealtubus Gr. 4,5",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-deckelfach-endotracheltubus-gr-4-1-1a34746",
+        "id": "rucksacksystem-kindertasche-gelb-deckelfach-endotrache-0017060",
         "name": "Endotrachealtubus Gr. 4",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-deckelfach-endotracheltubus-gr-3-5-1-b371edd",
+        "id": "rucksacksystem-kindertasche-gelb-deckelfach-endotrache-bade4bd",
         "name": "Endotrachealtubus Gr. 3,5",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-deckelfach-endotracheltubus-gr-3-1-76ea37f",
+        "id": "rucksacksystem-kindertasche-gelb-deckelfach-endotrache-fe72ba5",
         "name": "Endotrachealtubus Gr. 3",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-deckelfach-endotracheltubus-gr-2-5-1-92c5a8c",
+        "id": "rucksacksystem-kindertasche-gelb-deckelfach-endotrache-613646f",
         "name": "Endotrachealtubus Gr. 2,5",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-deckelfach-tube-holder-kind-1-bf47254",
+        "id": "rucksacksystem-kindertasche-gelb-deckelfach-tube-holde-08e4675",
         "name": "Tube Holder Kind",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-deckelfach-stifnek-kinder-1-aa728d1",
+        "id": "rucksacksystem-kindertasche-gelb-deckelfach-stifneck-k-cf1eab5",
         "name": "Stifneck Kinder",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-deckelfach-kindersichersystem-zugck-lin-781a8d3",
+        "id": "rucksacksystem-kindertasche-gelb-deckelfach-kindersich-384d82e",
         "name": "Kindersichersystem Zugck + Lineal",
-        "amount": "1"
-      },
-      {
-        "id": "rucksacksystem-deckelfach-beatmungsbeutelset-kind-1-d9e4ea0",
-        "name": "Beatmungsbeutelset Kind",
         "amount": "1"
       }
     ]
   },
   {
-    "id": "rucksacksystem-modultasche-beatmung-8e5811c",
+    "id": "rucksacksystem-kindertasche-gelb-modultasche-beatmung-6802752",
     "group": "Rucksacksystem",
     "title": "Modultasche Beatmung",
     "items": [
       {
-        "id": "rucksacksystem-modultasche-beatmung-beatmungsmaske-neo-504b6ea",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-beatmung--d707624",
+        "name": "Beatmungsbeutelset Kind",
+        "amount": "1"
+      },
+      {
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-beatmung--d009522",
         "name": "Beatmungsmaske Neonate",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-modultasche-beatmung-beatmungsmaske-tod-4cca4d9",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-beatmung--31cc0be",
         "name": "Beatmungsmaske Toddler",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-modultasche-beatmung-beatmungsmaske-inf-ef6d28f",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-beatmung--2a1e84b",
         "name": "Beatmungsmaske Infant",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-modultasche-beatmung-bakterien-und-vire-8048fc5",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-beatmung--d235503",
         "name": "Bakterien- und Virenfilter Kind",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-modultasche-beatmung-sauerstoffmaske-ki-277ea4b",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-beatmung--567bc0a",
         "name": "Sauerstoffmaske Kind",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-modultasche-beatmung-sauerstoffbrille-k-8a28e86",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-beatmung--8acc996",
         "name": "Sauerstoffbrille Kind",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-modultasche-beatmung-verneblermaske-kin-62ff09f",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-beatmung--9363421",
         "name": "Verneblermaske Kind",
         "amount": "1"
-      },
-      {
-        "id": "rucksacksystem-modultasche-beatmung-prednisolon-rect-1-2f5da44",
-        "name": "Prednisolon rect. 100mg",
-        "amount": "1 Pck.",
-        "note": "Klismacort mind. 2 St."
       }
     ]
   },
   {
-    "id": "rucksacksystem-medikamente-f0e31fb",
+    "id": "rucksacksystem-kindertasche-gelb-modultasche-medikamen-6eab4f1",
     "group": "Rucksacksystem",
-    "title": "Medikamente",
+    "title": "Modultasche Medikamente",
     "items": [
       {
-        "id": "rucksacksystem-medikamente-nacl-0-9-100ml-1-d6773be",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-medikamen-7ac2cd4",
+        "name": "Prednisolon rect. 100mg",
+        "amount": "1 Pck.",
+        "note": "Klismacort mind. 2 St."
+      },
+      {
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-medikamen-e80ae27",
         "name": "NaCl 0,9% 100ml",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-medikamente-diazepam-rect-5mg-2-99bba2f",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-medikamen-6763276",
         "name": "Diazepam rect. 5mg",
         "amount": "2"
       },
       {
-        "id": "rucksacksystem-medikamente-diazepam-rect-10mg-2-43aa5f2",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-medikamen-d467856",
         "name": "Diazepam rect. 10mg",
         "amount": "2"
       },
       {
-        "id": "rucksacksystem-medikamente-paracetamol-supp-125mg-1-pc-b0be33a",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-medikamen-3b33a8a",
         "name": "Paracetamol supp. 125mg",
         "amount": "1 Pck.",
         "note": "mind. 2 St."
       },
       {
-        "id": "rucksacksystem-medikamente-paracetamol-supp-250mg-1-pc-1f05497",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-medikamen-3977fdb",
         "name": "Paracetamol supp. 250mg",
         "amount": "1 Pck.",
         "note": "mind. 2 St."
       },
       {
-        "id": "rucksacksystem-medikamente-venenverweilkan-le-24g-3-0d72916",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-medikamen-4e8dbb0",
         "name": "Venenverweilkanüle 24G",
-        "amount": "3"
-      },
-      {
-        "id": "rucksacksystem-medikamente-nabelschnurklemme-3-38ddd2f",
-        "name": "Nabelschnurklemme",
         "amount": "3"
       }
     ]
   },
   {
-    "id": "rucksacksystem-abnabelung-a77ab6d",
+    "id": "rucksacksystem-kindertasche-gelb-modultasche-abnabelun-70e44a4",
     "group": "Rucksacksystem",
-    "title": "Abnabelung",
+    "title": "Modultasche Abnabelung",
     "items": [
       {
-        "id": "rucksacksystem-abnabelung-silberwindel-2-3e7235c",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-abnabelun-05abde6",
+        "name": "Nabelschnurklemme",
+        "amount": "3"
+      },
+      {
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-abnabelun-003d00c",
         "name": "Silberwindel",
         "amount": "2"
       },
       {
-        "id": "rucksacksystem-abnabelung-skalpell-1-036b9c7",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-abnabelun-c942b45",
         "name": "Skalpell",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-abnabelung-rettungsdecke-1-ac5bdd9",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-abnabelun-d03561b",
         "name": "Rettungsdecke",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-abnabelung-handschuhe-steril-gr-s-m-l-x-a6c36f8",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-abnabelun-54371d9",
         "name": "Handschuhe steril, Gr. S, M, L, XL (entspr. Gr. 6,5; 7,5; 8,5; 9,5)",
         "amount": "je 1"
       },
       {
-        "id": "rucksacksystem-abnabelung-nabelschnurschere-schumacher-c6a8856",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-abnabelun-9e74da9",
         "name": "Nabelschnurschere - \"Schumacher\"",
-        "amount": "1"
-      },
-      {
-        "id": "rucksacksystem-abnabelung-stethoskop-kind-1-7336be8",
-        "name": "Stethoskop Kind",
         "amount": "1"
       }
     ]
   },
   {
-    "id": "rucksacksystem-diagnostik-4a177ac",
+    "id": "rucksacksystem-kindertasche-gelb-modultasche-diagnosti-635efe3",
     "group": "Rucksacksystem",
-    "title": "Diagnostik",
+    "title": "Modultasche Diagnostik",
     "items": [
       {
-        "id": "rucksacksystem-diagnostik-blutdruckmanschette-gr-8-1-76097bd",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-diagnosti-434696c",
+        "name": "Stethoskop Kind",
+        "amount": "1"
+      },
+      {
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-diagnosti-ffac57d",
         "name": "Blutdruckmanschette Gr. 8",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-diagnostik-blutdruckmanschette-gr-9-1-f5b5d88",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-diagnosti-15796ef",
         "name": "Blutdruckmanschette Gr. 9",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-diagnostik-fieberthermometer-1-f1ac07d",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-diagnosti-7f302c9",
         "name": "Fieberthermometer",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-diagnostik-schutzh-llen-5-1c3fa81",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-diagnosti-454ee4e",
         "name": "Schutzhüllen",
         "amount": "5"
       },
       {
-        "id": "rucksacksystem-diagnostik-spo-sensor-c3-kinder-2-1-6f5d815",
-        "name": "SpO2 Sensor C3 Kinder 2",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-diagnosti-9843995",
+        "name": "SpO2 Sensor C3 Kinder",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-diagnostik-kinder-ekg-elektroden-1-pck-e7c5179",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-diagnosti-d6691e6",
         "name": "Kinder EKG Elektroden",
         "amount": "1 Pck."
-      },
-      {
-        "id": "rucksacksystem-diagnostik-lma-gr-2-5-1-b051432",
-        "name": "LMA Gr. 2,5",
-        "amount": "1"
       }
     ]
   },
   {
-    "id": "rucksacksystem-absaugung-o-2-3d19004",
+    "id": "rucksacksystem-kindertasche-gelb-modultasche-absaugung-33aa00a",
     "group": "Rucksacksystem",
-    "title": "Absaugung O2 2",
+    "title": "Modultasche Absaugung O2",
     "items": [
       {
-        "id": "rucksacksystem-absaugung-o-2-lma-gr-2-1-389c5cb",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-absaugung-53c16b5",
+        "name": "LMA Gr. 2,5",
+        "amount": "1"
+      },
+      {
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-absaugung-c7464e1",
         "name": "LMA Gr. 2",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-absaugung-o-2-lma-gr-1-5-1-b253d26",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-absaugung-00f1f2a",
         "name": "LMA Gr. 1,5",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-absaugung-o-2-lma-gr-1-1-1e886e0",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-absaugung-71ce26b",
         "name": "LMA Gr. 1",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-absaugung-o-2-einf-hrungsmandrin-s-guid-f266e6d",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-absaugung-e949d54",
         "name": "Einführungsmandrin S-Guide CH08",
         "amount": "1"
       },
       {
-        "id": "rucksacksystem-absaugung-o-2-absaugkatheter-6-ch-2-8d433c6",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-absaugung-e75ec47",
         "name": "Absaugkatheter 6 CH",
         "amount": "2"
       },
       {
-        "id": "rucksacksystem-absaugung-o-2-sekretbeutel-1ltr-1-f9d5e0f",
+        "id": "rucksacksystem-kindertasche-gelb-modultasche-absaugung-6af8492",
         "name": "Sekretbeutel 1ltr.",
         "amount": "1"
       }
