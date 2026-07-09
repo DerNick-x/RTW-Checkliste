@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#064f49" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="RTW Check" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>Kreis Steinfurt RTW Checkliste</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <p class="kicker">Kreis Steinfurt</p>
+      <h1>RTW & Rucksacksystem</h1>
+      <p class="subtitle">Best?ckung nach PDF-Stand Februar 2025. Fahrerraum ist ausgelassen.</p>
+    </div>
+    <button class="danger" id="resetAll" type="button">Alles zur?cksetzen</button>
+  </header>
+  <main class="layout">
+    <section class="progress-card" aria-label="Vollst?ndigkeit">
+      <div class="progress-top">
+        <div><span class="progress-number" id="overallPercent">0%</span><p id="overallText">Noch nichts abgehakt.</p></div>
+        <div class="stats"><span id="doneCount">0</span><small>erledigt</small><span id="openCount">0</span><small>offen</small></div>
+      </div>
+      <div class="bar"><span id="overallBar"></span></div>
+    </section>
+    <section class="controls" aria-label="Ansicht steuern">
+      <input id="search" type="search" placeholder="Suchen, z. B. Spritze, Fach 3, Tasche" />
+      <div class="segments" role="group" aria-label="Bereich">
+        <button class="segment active" data-group="all" type="button">Alles</button>
+        <button class="segment" data-group="RTW" type="button">RTW</button>
+        <button class="segment" data-group="Rucksacksystem" type="button">Rucksack</button>
+      </div>
+      <div class="segments" role="group" aria-label="Status">
+        <button class="segment active" data-status="all" type="button">Alle</button>
+        <button class="segment" data-status="open" type="button">Offen</button>
+        <button class="segment" data-status="done" type="button">Erledigt</button>
+      </div>
+    </section>
+    <section class="section-list" id="sectionList" aria-live="polite"></section>
+  </main>
+  <template id="sectionTemplate">
+    <article class="check-section">
+      <button class="section-head" type="button"><span><span class="group-pill"></span><strong class="section-title"></strong><small class="section-meta"></small></span><span class="section-percent"></span></button>
+      <div class="mini-bar"><span></span></div><div class="items"></div>
+    </article>
+  </template>
+  <template id="itemTemplate">
+    <label class="item"><input type="checkbox" /><span class="item-text"><strong></strong><small></small></span><span class="amount"></span></label>
+  </template>
+  <script src="data.js"></script><script src="app.js"></script>
+</body>
+</html>
