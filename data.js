@@ -1643,7 +1643,8 @@ window.CHECKLIST_DATA = [
         "name": "Stifneck Erwachsene",
         "amount": "1"
       }
-    ]
+    ],
+    "pack": "notfallrucksack"
   },
   {
     "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-f22168a",
@@ -1670,7 +1671,8 @@ window.CHECKLIST_DATA = [
         "name": "Midazolam 15mg/3ml",
         "amount": "1"
       }
-    ]
+    ],
+    "pack": "notfallrucksack"
   },
   {
     "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-7429617",
@@ -1697,7 +1699,8 @@ window.CHECKLIST_DATA = [
         "name": "Pupillenleuchte",
         "amount": "1"
       }
-    ]
+    ],
+    "pack": "notfallrucksack"
   },
   {
     "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-d746f84",
@@ -1719,7 +1722,8 @@ window.CHECKLIST_DATA = [
         "name": "Jubin 40g",
         "amount": "2"
       }
-    ]
+    ],
+    "pack": "notfallrucksack"
   },
   {
     "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-ac799f2",
@@ -1752,7 +1756,8 @@ window.CHECKLIST_DATA = [
         "name": "Paracetamol 1000 mg/100ml",
         "amount": "1"
       }
-    ]
+    ],
+    "pack": "notfallrucksack"
   },
   {
     "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-96847b6",
@@ -1819,7 +1824,8 @@ window.CHECKLIST_DATA = [
         "name": "Leukosilk",
         "amount": "1"
       }
-    ]
+    ],
+    "pack": "notfallrucksack"
   },
   {
     "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-27bdd61",
@@ -1846,7 +1852,8 @@ window.CHECKLIST_DATA = [
         "name": "Selbsthaftende Fixierbinde",
         "amount": "1"
       }
-    ]
+    ],
+    "pack": "notfallrucksack"
   },
   {
     "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-c0b43e7",
@@ -1918,7 +1925,8 @@ window.CHECKLIST_DATA = [
         "name": "Tupfer (Kompressen 5x5cm)",
         "amount": "10"
       }
-    ]
+    ],
+    "pack": "notfallrucksack"
   },
   {
     "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-13fdbc8",
@@ -1960,7 +1968,8 @@ window.CHECKLIST_DATA = [
         "name": "Blutdruckmessgerät",
         "amount": "1"
       }
-    ]
+    ],
+    "pack": "notfallrucksack"
   },
   {
     "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-096b0b5",
@@ -1997,7 +2006,8 @@ window.CHECKLIST_DATA = [
         "name": "Cuffdruckmesser m. Manometer",
         "amount": "1"
       }
-    ]
+    ],
+    "pack": "notfallrucksack"
   },
   {
     "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-160c689",
@@ -2075,7 +2085,8 @@ window.CHECKLIST_DATA = [
         "name": "Wendeltubus CH24",
         "amount": "1"
       }
-    ]
+    ],
+    "pack": "notfallrucksack"
   },
   {
     "id": "rucksacksystem-notfallrucksack-rot-trennwand-kreislauf-d9a69ea",
@@ -2300,7 +2311,8 @@ window.CHECKLIST_DATA = [
         "name": "Safety- Kanüle 21 G (i.m.)",
         "amount": "2"
       }
-    ]
+    ],
+    "pack": "notfallrucksack"
   },
   {
     "id": "rucksacksystem-beatmungstasche-blau-sauerstofftasche-8aa5983",
@@ -2377,7 +2389,8 @@ window.CHECKLIST_DATA = [
         "name": "Peepventil",
         "amount": "1"
       }
-    ]
+    ],
+    "pack": "beatmungstasche"
   },
   {
     "id": "rucksacksystem-beatmungstasche-blau-fach-insufflation-d1526e1",
@@ -2409,7 +2422,8 @@ window.CHECKLIST_DATA = [
         "name": "FiltaMask",
         "amount": "1"
       }
-    ]
+    ],
+    "pack": "beatmungstasche"
   },
   {
     "id": "rucksacksystem-kindertasche-gelb-deckelfach-0d52c82",
@@ -2511,7 +2525,8 @@ window.CHECKLIST_DATA = [
         "name": "Kindersichersystem Zugck + Lineal",
         "amount": "1"
       }
-    ]
+    ],
+    "pack": "kindertasche"
   },
   {
     "id": "rucksacksystem-kindertasche-gelb-modultasche-beatmung-6802752",
@@ -2558,7 +2573,8 @@ window.CHECKLIST_DATA = [
         "name": "Verneblermaske Kind",
         "amount": "1"
       }
-    ]
+    ],
+    "pack": "kindertasche"
   },
   {
     "id": "rucksacksystem-kindertasche-gelb-modultasche-medikamen-6eab4f1",
@@ -2603,7 +2619,8 @@ window.CHECKLIST_DATA = [
         "name": "Venenverweilkanüle 24G",
         "amount": "3"
       }
-    ]
+    ],
+    "pack": "kindertasche"
   },
   {
     "id": "rucksacksystem-kindertasche-gelb-modultasche-abnabelun-70e44a4",
@@ -2640,7 +2657,8 @@ window.CHECKLIST_DATA = [
         "name": "Nabelschnurschere - \"Schumacher\"",
         "amount": "1"
       }
-    ]
+    ],
+    "pack": "kindertasche"
   },
   {
     "id": "rucksacksystem-kindertasche-gelb-modultasche-diagnosti-635efe3",
@@ -2682,7 +2700,8 @@ window.CHECKLIST_DATA = [
         "name": "Kinder EKG Elektroden",
         "amount": "1 Pck."
       }
-    ]
+    ],
+    "pack": "kindertasche"
   },
   {
     "id": "rucksacksystem-kindertasche-gelb-modultasche-absaugung-33aa00a",
@@ -2724,6 +2743,7 @@ window.CHECKLIST_DATA = [
         "name": "Sekretbeutel 1ltr.",
         "amount": "1"
       }
-    ]
+    ],
+    "pack": "kindertasche"
   }
 ];

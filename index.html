@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#064f49" />
+  <meta name="theme-color" content="#08090b" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-title" content="RTW Check" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -17,12 +17,12 @@
     <div>
       <p class="kicker">Kreis Steinfurt</p>
       <h1>RTW & Rucksacksystem</h1>
-      <p class="subtitle">Best?ckung nach PDF-Stand Februar 2025. Fahrerraum ist ausgelassen.</p>
+      <p class="subtitle">Bestückung nach PDF-Stand Februar 2025. Fahrerraum ist ausgelassen.</p>
     </div>
-    <button class="danger" id="resetAll" type="button">Alles zur?cksetzen</button>
+    <button class="danger" id="resetAll" type="button">Alles zurücksetzen</button>
   </header>
   <main class="layout">
-    <section class="progress-card" aria-label="Vollst?ndigkeit">
+    <section class="progress-card" aria-label="Vollständigkeit">
       <div class="progress-top">
         <div><span class="progress-number" id="overallPercent">0%</span><p id="overallText">Noch nichts abgehakt.</p></div>
         <div class="stats"><span id="doneCount">0</span><small>erledigt</small><span id="openCount">0</span><small>offen</small></div>
@@ -41,6 +41,13 @@
         <button class="segment" data-status="open" type="button">Offen</button>
         <button class="segment" data-status="done" type="button">Erledigt</button>
       </div>
+    </section>
+    <section class="pack-controls hidden" id="packControls" aria-label="Rucksacksystem auswählen">
+      <span>Rucksacksystem</span>
+      <button class="pack active" data-pack="all" type="button">Alle</button>
+      <button class="pack" data-pack="notfallrucksack" type="button">Roter Rucksack</button>
+      <button class="pack" data-pack="beatmungstasche" type="button">Beatmungstasche</button>
+      <button class="pack" data-pack="kindertasche" type="button">Kinderrucksack</button>
     </section>
     <section class="section-list" id="sectionList" aria-live="polite"></section>
   </main>

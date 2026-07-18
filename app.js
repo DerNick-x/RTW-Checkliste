@@ -2,6 +2,7 @@ const sections = window.CHECKLIST_DATA || [];
 const storageKey = "kreis-steinfurt-bestueckung-v2";
 let checked = new Set(JSON.parse(localStorage.getItem(storageKey) || "[]"));
 let groupFilter = "all";
+let packFilter = "all";
 let statusFilter = "all";
 let query = "";
 const sectionList = document.querySelector("#sectionList");
@@ -14,6 +15,7 @@ const doneCount = document.querySelector("#doneCount");
 const openCount = document.querySelector("#openCount");
 const search = document.querySelector("#search");
 const resetAll = document.querySelector("#resetAll");
+const packControls = document.querySelector("#packControls");
 const allItems = () => sections.flatMap(section => section.items);
 const isDone = item => checked.has(item.id);
 const save = () => localStorage.setItem(storageKey, JSON.stringify([...checked]));
@@ -38,6 +40,7 @@ function sectionLabel(section) {
 function matches(item, section) {
   const haystack = normalize(`${section.group} ${section.title} ${item.name} ${item.amount} ${item.note || ""}`);
   if (groupFilter !== "all" && section.group !== groupFilter) return false;
+  if (groupFilter === "Rucksacksystem" && packFilter !== "all" && section.pack !== packFilter) return false;
   if (statusFilter === "open" && isDone(item)) return false;
   if (statusFilter === "done" && !isDone(item)) return false;
   if (query && !haystack.includes(normalize(query))) return false;
@@ -48,7 +51,7 @@ function updateProgress() {
   const done = allItems().filter(isDone).length;
   const percent = total ? Math.round((done / total) * 100) : 0;
   overallPercent.textContent = `${percent}%`;
-  overallText.textContent = done === total ? "Alles vollst?ndig abgehakt." : `${done} von ${total} Positionen abgehakt.`;
+  overallText.textContent = done === total ? "Alles vollständig abgehakt." : `${done} von ${total} Positionen abgehakt.`;
   overallBar.style.width = `${percent}%`;
   doneCount.textContent = done;
   openCount.textContent = total - done;
@@ -125,7 +128,15 @@ function render() {
 }
 document.querySelectorAll("[data-group]").forEach(button => button.addEventListener("click", () => {
   groupFilter = button.dataset.group;
+  if (groupFilter !== "Rucksacksystem") packFilter = "all";
+  packControls.classList.toggle("hidden", groupFilter !== "Rucksacksystem");
+  document.querySelectorAll("[data-pack]").forEach(current => current.classList.toggle("active", current.dataset.pack === packFilter));
   document.querySelectorAll("[data-group]").forEach(current => current.classList.toggle("active", current === button));
+  render();
+}));
+document.querySelectorAll("[data-pack]").forEach(button => button.addEventListener("click", () => {
+  packFilter = button.dataset.pack;
+  document.querySelectorAll("[data-pack]").forEach(current => current.classList.toggle("active", current === button));
   render();
 }));
 document.querySelectorAll("[data-status]").forEach(button => button.addEventListener("click", () => {
@@ -135,7 +146,7 @@ document.querySelectorAll("[data-status]").forEach(button => button.addEventList
 }));
 search.addEventListener("input", () => { query = search.value.trim(); render(); });
 resetAll.addEventListener("click", () => {
-  if (!window.confirm("Alle H?kchen f?r die n?chste Schicht entfernen?")) return;
+  if (!window.confirm("Alle Häkchen für die nächste Schicht entfernen?")) return;
   checked = new Set();
   save();
   render();
