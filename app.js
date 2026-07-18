@@ -31,7 +31,7 @@ function sectionLabel(section) {
   }
 
   const title = section.title === "Fach 13 Fach 13" ? "Fach 13" : section.title;
-  if (/^Sch.tte\s+\d+/.test(title)) return { context: "", title };
+  if (/^Schütte\s+\d+/.test(title)) return { context: "", title };
   if (/^(Ebene\s+\d+|BTM Fach)/.test(title)) return { context: "", title };
   if (title === "Modultasche Spritzenpumpe") return { context: "", title };
   return { context: "", title };
